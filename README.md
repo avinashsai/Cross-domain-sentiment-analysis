@@ -38,12 +38,12 @@ python3 extract.py
 ```
 Reviews will be stored in **Actualdata** Folder. 
 
-To run the approach :
+To run the approach : pass training domain and testing domain as arguments
 
 ```
 cd Scripts
-python3 main.py
+python3 main.py books kitchen
 ```
 
-You will get results tested on all Machine Learning Classifiers
+You will get results tested on all Machine Learning Classifiers trained on Books and tested on kitchen
 
