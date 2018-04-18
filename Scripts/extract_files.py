@@ -74,7 +74,7 @@ def extract_files(pos_file,neg_file,num):
 
 	
 	dir_to_write =["Books","Dvd","Electronics","Kitchen"]
-	original_dir = "../Actualdata"+"/"+dir_to_write[num]+"/"
+	original_dir = "../Dataset/Actualdata"+"/"+dir_to_write[num]+"/"
 
 	train_file = original_dir+dir_to_write[num]+"train.txt"
 	test_file = original_dir+dir_to_write[num]+"test.txt"

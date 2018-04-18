@@ -8,9 +8,9 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 
 
-train_list = ["../Actualdata/Books/Bookstrain.txt","../Actualdata/Dvd/Dvdtrain.txt","../Actualdata/Electronics/Electronicstrain.txt","../Actualdata/Kitchen/Kitchentrain.txt"]
+train_list = ["../Dataset/Actualdata/Books/Bookstrain.txt","../Dataset/Actualdata/Dvd/Dvdtrain.txt","../Dataset/Actualdata/Electronics/Electronicstrain.txt","../Dataset/Actualdata/Kitchen/Kitchentrain.txt"]
 
-test_list = ["../Actualdata/Books/Bookstest.txt","../Actualdata/Dvd/Dvdtest.txt","../Actualdata/Electronics/Electronicstest.txt","../Actualdata/Kitchen/Kitchentest.txt"]
+test_list = ["../Dataset/Actualdata/Books/Bookstest.txt","../Dataset/Actualdata/Dvd/Dvdtest.txt","../Dataset/Actualdata/Electronics/Electronicstest.txt","../Dataset/Actualdata/Kitchen/Kitchentest.txt"]
 
 
 stopword = stopwords.words('english') 
